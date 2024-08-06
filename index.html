@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Trocchi&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+
+    <title>Proyecto 10</title>
+</head>
+<body>
+
+    <div class="layout">
+        <h1 class="layout__title">
+            Busca tu hotel
+        </h1>
+
+        <form action="get" class="layout__search">
+            <input type="search" class="search__input" placeholder="Busca tu hotel y lo encontramos.">
+
+            <button class="search__btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <main class="layout__results">
+
+            <article class="results__result">
+                <p class="result__subtitle">Nombre:</p>
+                <h3 class="result__title">Hotel Víctor</h3>
+            </article>
+
+            <article class="results__result">
+                <p class="result__subtitle">Ubicación:</p>
+                <h3 class="result__title">Av. Gustave Eiffel, 75007 Paris, Francia</h3>
+            </article>
+
+            <article class="results__result">
+                <p class="result__subtitle">Fecha:</p>
+                <h3 class="result__title">06/08/2024</h3>
+            </article>
+
+        </main>
+
+        <section class="layout__map">
+            <iframe class="map__frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9914410253423!2d2.2919063767559846!3d48.85837360070731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTorre%20Eiffel!5e0!3m2!1ses!2smx!4v1722971921292!5m2!1ses!2smx" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+    
+</body>
+</html>
